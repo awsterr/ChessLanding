@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">    
+    <title>Шахматы</title>
+</head>
+<body>
+    <main class="main">
+        <div class="main__container">
+            <img src="img/raster/logo.png" alt="logo" class="main__logo">
+            <!-- style to CSS -->
+            <article class="main__body">
+                <h1 class="main__title">Превратите уездный город 
+                    <div class="main__centered-text">в столицу</div>
+                    <div class="main__righted-text">земного шара</div>
+                </h1>
+                <p class="main__text">Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам</p>
+                <div class="main__btns">
+                    <a href="#anchor1" class="main__btn primary-button">
+                        Поддержать шахматную мысль
+                    </a>
+                    <a href="#anchor2" class="main__btn secondary-button">
+                        Подробнее о турнире
+                    </a>
+                </div>
+            </article>
+        </div>
+    </main>
+    <div class="marquee">
+        <div class="marquee__inner">
+            <p class="marquee__text">
+                Дело помощи утопающим — дело рук самих утопающих! &#149
+                Шахматы двигают вперёд не только культуру, но и экономику! &#149
+                Лёд тронулся, господа присяжные заседатели! &#149
+            </p>
+            <p class="marquee__text">
+                Дело помощи утопающим — дело рук самих утопающих! &#149
+                Шахматы двигают вперёд не только культуру, но и экономику! &#149
+                Лёд тронулся, господа присяжные заседатели! &#149
+            </p>
+        </div>
+    </div>
+    <article class="event">
+        <section class="lecture">
+            <p class="lecture__header" id="anchor1">
+                Чтобы поддержать Международный васюкинский турнир <img src="img/raster/lecture.png" alt="four men plaing chess" class="lecture__img lecture__inline-img"><span>посетите лекцию на тему: <span class="highlited-header-text">«Плодотворная дебютная идея»</span></span>
+            </p>
+            <img src="img/raster/lecture.png" alt="four men plaing chess" class="lecture__img">
+            <!-- <span class="lecture__breakpoint-after lecture__header">посетите лекцию на тему: <span class="highlited-header-text">«Плодотворная дебютная идея»</span></span> -->
+        </section>
+        <section class="game">
+            <img src="img/raster/ostapCollage.png" alt="Ostap Bender plaing chess" class="game__img">
+            <div class="game__text">
+                <p class="game__header">
+                    и Сеанс <span class="highlited-header-text">одновременной игры в шахматы на 160 досках</span> гроссмейстера О. Бендера
+                </p>
+                <table class="game__table">
+                    <tbody class="table__body">
+                        <tr class="table__row">
+                            <td class="table__termin">
+                                Место проведения:
+                            </td>
+                            <td class="table__data">
+                                Клуб «Картонажник»
+                            </td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__termin">
+                                Дата и время мероприятия:
+                            </td>
+                            <td class="table__data">
+                                22 июня 1927 г. в 18:00
+                            </td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__termin">
+                                Стоимость входных билетов:
+                            </td>
+                            <td class="table__data">
+                                20 коп.
+                            </td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__termin">
+                                Плата за игру:
+                            </td>
+                            <td class="table__data">
+                                50 коп.
+                            </td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__termin">
+                                Взнос на телеграммы:
+                            </td>
+                            <td class="table__data">
+                                <s class="line-through">100 руб.</s> 21 руб. 16 коп.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="game__footer">По всем вопросам обращаться в администрацию к К. Михельсону</p>
+            </div>
+        </section>
+    </article>
+    <article class="stages">
+        <!-- change structure -->
+        <h2 class="header stages__header">
+            Этапы преображения Васюков
+        </h2>
+        <div class="stages__plane-wrapper">
+            <img src="img/raster/plane.png" alt="plane" class="stages__plane-img">
+        </div>
+        <div class="stages__wrapper" id="stages__wrapper" inert>
+            <ol role="list" class="stages-list">
+                <li class="stages-list__element">Строительство железнодорожной магистрали Москва-Васюки</li>
+                <li class="stages-list__element">Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов</li>
+                <li class="stages-list__element">Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры, шоколадных конфет</li>
+                <li class="stages-list__element">Строительство дворца для турнира</li>
+                <li class="stages-list__element">Размещение гаражей для гостевого автотранспорта</li>
+                <li class="stages-list__element">Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов</li>
+                <li class="stages-list__element">Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн</li>
+            </ol>
+        </div>
+        <div class="stages__controls" id="stages_controls">
+            <span class="slider-left slider-arrow" disabled="true" id="stages_left">
+                <svg fill="currentColor" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="22" cy="22" r="22" fill="currentColor"/>
+                    <path d="M19.4618 13.5384L27.9233 21.9999L19.4618 30.4615" fill="none" stroke="white" stroke-width="2" stroke-linecap="square"/>
+                </svg>
+            </span>
+            <span class="slider-dots" id="slider_dots">
+                <span class="slider-dot" active="true"></span>
+                <span class="slider-dot"></span>
+                <span class="slider-dot"></span>
+                <span class="slider-dot"></span>
+                <span class="slider-dot"></span>
+            </span>
+            <span class="slider-right slider-arrow" id="stages_right">
+                <svg fill="currentColor" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="22" cy="22" r="22" fill="currentColor"/>
+                    <path d="M19.4618 13.5384L27.9233 21.9999L19.4618 30.4615" fill="none" stroke="white" stroke-width="2" stroke-linecap="square"/>
+                </svg>
+            </span>
+        </div>
+    </article>
+    <article class="tourney">
+        <h2 class="header tourney__header" id="anchor2">
+            Участники турнира
+        </h2>
+        <div class="tourney__controls">
+            <span class="slider-left slider-arrow" id="tourney_left">
+                <svg fill="currentColor" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="22" cy="22" r="22" fill="currentColor"/>
+                    <path d="M19.4618 13.5384L27.9233 21.9999L19.4618 30.4615" fill="none" stroke="white" stroke-width="2" stroke-linecap="square"/>
+                </svg>
+            </span>
+            <span class="counter">
+                <span class="counter__current" id="current_member">3</span>
+                <span class="counter__amount"> / 6</span>
+            </span>
+            <span class="slider-right slider-arrow" id="tourney_right">
+                <svg fill="currentColor" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="22" cy="22" r="22" fill="currentColor"/>
+                    <path d="M19.4618 13.5384L27.9233 21.9999L19.4618 30.4615" fill="none" stroke="white" stroke-width="2" stroke-linecap="square"/>
+                </svg>
+            </span>
+        </div>
+        <div class="tourney__slider">
+            <div class="tourney__slider-wrapper" id="carousel_wrapper">
+                <ul class="tourney__slider-list" id="carousel">
+                    <li class="member">
+                        <div class="member__avatar-wrapper">
+                            <img src="img/raster/avatar.png" alt="avatar" class="member__avatar" draggable="false">
+                        </div>
+                        <p class="member__name">Хозе-Рауль Капабланка</p>
+                        <p class="member__text">Чемпион мира по шахматам</p>
+                        <a href="#" class="member__link" draggable="false">Подробнее</a>
+                    </li>
+                    <li class="member">
+                        <div class="member__avatar-wrapper">
+                            <img src="img/raster/avatar.png" alt="avatar" class="member__avatar" draggable="false">
+                        </div>
+                        <p class="member__name">Эммануил Ласкер</p>
+                        <p class="member__text">Чемпион мира по шахматам</p>
+                        <a href="#" class="member__link" draggable="false">Подробнее</a>
+                    </li>
+                    <li class="member">
+                        <div class="member__avatar-wrapper">
+                            <img src="img/raster/avatar.png" alt="avatar" class="member__avatar" draggable="false">
+                        </div>
+                        <p class="member__name">Александр Алехин</p>
+                        <p class="member__text">Чемпион мира по шахматам</p>
+                        <a href="#" class="member__link" draggable="false">Подробнее</a>
+                    </li>
+                    <li class="member">
+                        <div class="member__avatar-wrapper">
+                            <img src="img/raster/avatar.png" alt="avatar" class="member__avatar" draggable="false">
+                        </div>
+                        <p class="member__name">Арон Нимцович</p>
+                        <p class="member__text">Чемпион мира по шахматам</p>
+                        <a href="#" class="member__link" draggable="false">Подробнее</a>
+                    </li>
+                    <li class="member">
+                        <div class="member__avatar-wrapper">
+                            <img src="img/raster/avatar.png" alt="avatar" class="member__avatar" draggable="false">
+                        </div>
+                        <p class="member__name">Рихард Рети</p>
+                        <p class="member__text">Чемпион мира по шахматам</p>
+                        <a href="#" class="member__link" draggable="false">Подробнее</a>
+                    </li>
+                    <li class="member">
+                        <div class="member__avatar-wrapper">
+                            <img src="img/raster/avatar.png" alt="avatar" class="member__avatar" draggable="false">
+                        </div>
+                        <p class="member__name">Остап Бендер</p>
+                        <p class="member__text">Гроссмейстер</p>
+                        <a href="#" class="member__link" draggable="false">Подробнее</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </article>
+    <div class="marquee">
+        <div class="marquee__inner">
+            <p class="marquee__text">
+                Дело помощи утопающим — дело рук самих утопающих! &#149
+                Шахматы двигают вперёд не только культуру, но и экономику! &#149
+                Лёд тронулся, господа присяжные заседатели! &#149
+            </p>
+            <p class="marquee__text">
+                Дело помощи утопающим — дело рук самих утопающих! &#149
+                Шахматы двигают вперёд не только культуру, но и экономику! &#149
+                Лёд тронулся, господа присяжные заседатели! &#149
+            </p>
+        </div>
+    </div>
+    <footer class="footer">
+        <p class="footer__text">
+            Все персонажи, события и цитаты являются вымышленными и не принадлежат создателям сайта. С подробностями можно познакомиться в главе XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».
+        </p>
+    </footer>
+    <script src="stages_slider.js"></script>
+    <script src="tourney_slider.js"></script>
+</body>
+</html>
